@@ -1,0 +1,64 @@
+This is BibTeX, Version 0.99c (Web2C 7.5.6)
+The top-level auxiliary file: SCITECH2015.aux
+The style file: aiaa.bst
+Database file #1: ./NEWMASTER.bib
+Warning--entry type for "Kuo2013" isn't style-file defined
+--line 8610 of file ./NEWMASTER.bib
+Warning--entry type for "Tam1996" isn't style-file defined
+--line 14715 of file ./NEWMASTER.bib
+Warning--empty journal in Arndt1997
+Warning--empty journal in Mollo-Christensen1967
+Warning--empty journal in Panda2002
+Warning--empty journal in Panda2005b
+Warning--empty journal in Tam2008
+Warning--empty journal in Crighton1990
+Warning--empty journal in Sandham2006
+Warning--empty journal in Cavalieri2010
+Warning--empty journal in Coiffet2006
+Warning--empty journal in Tinney2008
+Warning--there's a number but no volume in spethASME2013
+Warning--empty journal in Kikuchi2010
+Warning--empty journal in Torrence1998
+Warning--empty journal in Farge1992
+You've used 51 entries,
+            2292 wiz_defined-function locations,
+            888 strings with 12762 characters,
+and the built_in function-call counts, 10724 in all, are:
+= -- 813
+> -- 497
+< -- 11
++ -- 186
+- -- 135
+* -- 1124
+:= -- 1598
+add.period$ -- 100
+call.type$ -- 51
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 65
+duplicate$ -- 493
+empty$ -- 1102
+format.name$ -- 135
+if$ -- 2283
+int.to.chr$ -- 0
+int.to.str$ -- 51
+missing$ -- 49
+newline$ -- 157
+num.names$ -- 51
+pop$ -- 118
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 186
+stack$ -- 0
+substring$ -- 739
+swap$ -- 171
+text.length$ -- 11
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 14
+while$ -- 97
+width$ -- 53
+write$ -- 433
+(There were 16 warnings)
