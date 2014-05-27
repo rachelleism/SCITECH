@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.12.12)  22 MAY 2014 23:10
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.12.12)  27 MAY 2014 11:56
 entering extended mode
  %&-line parsing enabled.
 **SCITECH2015.tex
@@ -391,9 +391,9 @@ File: umsb.fd 2002/01/19 v2.2g AMS font definitions
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 62.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 67.
+(Font)              <10> on input line 68.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 67.
+(Font)              <7> on input line 68.
  [1
 
 {/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
@@ -409,7 +409,7 @@ File: GDTL_linear_mic_array.png Graphic file (type png)
 File: GDTL_mic_locations.png Graphic file (type png)
 
 <use GDTL_mic_locations.png>
-Overfull \hbox (6.66461pt too wide) in paragraph at lines 114--115
+Overfull \hbox (6.66461pt too wide) in paragraph at lines 115--116
  [][][] 
  []
 
@@ -429,7 +429,7 @@ File: ExpPhavg3D.png Graphic file (type png)
 File: NumPhavg3D.png Graphic file (type png)
 
 <use NumPhavg3D.png>
-Overfull \hbox (42.7947pt too wide) in paragraph at lines 180--181
+Overfull \hbox (42.7947pt too wide) in paragraph at lines 181--182
  [][][] 
  []
 
@@ -439,7 +439,7 @@ File: ExpTotalPms.png Graphic file (type png)
 <NumTotalPms.png, id=51, 986.0037pt x 683.4333pt>
 File: NumTotalPms.png Graphic file (type png)
  <use NumTotalPms.png>
-Overfull \hbox (36.12428pt too wide) in paragraph at lines 192--193
+Overfull \hbox (36.12428pt too wide) in paragraph at lines 193--194
  [][][] 
  []
 
@@ -456,7 +456,7 @@ File: M09St025qcritphase0106AB.png Graphic file (type png)
 
 <use M09St025qcritphase0106AB.png>
 
-LaTeX Warning: Float too large for page by 7.50732pt on input line 204.
+LaTeX Warning: Float too large for page by 7.50732pt on input line 205.
 
 <Phase_average_FF1.png, id=55, 234.8775pt x 174.4335pt>
 File: Phase_average_FF1.png Graphic file (type png)
@@ -493,7 +493,7 @@ f/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10
 type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy5.pfb></
 usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/p
 ublic/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on SCITECH2015.pdf (14 pages, 19527887 bytes).
+Output written on SCITECH2015.pdf (14 pages, 19528046 bytes).
 PDF statistics:
  155 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
