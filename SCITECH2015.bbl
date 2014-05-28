@@ -1,11 +1,6 @@
 \begin{thebibliography}{10}
 \newcommand{\enquote}[1]{``#1''}
 
-\bibitem{GAO2011}
-Office, G.~A., \enquote{Hearing Loss Prevention: Improvements to DOD HEaring
-  Conservation Programs Could LEad to Better Outcomes,} {\em Report to
-  Congressional Committees\/}, , No. GAO-11-114, January 2011.
-
 \bibitem{lighthill1963}
 Lighthill, J., \enquote{Jet Noise,} {\em AIAA Journal\/}, Vol.~1, 1963.
 
@@ -104,8 +99,8 @@ Freund, J. and Colonius, T., \enquote{POD Analysis of Sound Generation by a
   2002.
 
 \bibitem{moreno2003}
-Moreno, D., Krothapalli, A., and Greska, B., \enquote{THE USE OF PROPER
-  ORTHOGONAL DECOMPOSITION METHOD IN THE STUDY OF HIGH SPEED JET NOISE,} {\em
+Moreno, D., Krothapalli, A., and Greska, B., \enquote{The use of Proper
+  Orthogonal Decomposition Method in the Study of High Speed Jet Noise,} {\em
   9th AIAA/CEAS Aeroacoustics Conference and Exhibit\/}, 2003.
 
 \bibitem{baars2010}
