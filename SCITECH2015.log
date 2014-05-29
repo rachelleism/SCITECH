@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.12.12)  29 MAY 2014 14:55
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.12.12)  29 MAY 2014 16:36
 entering extended mode
  %&-line parsing enabled.
 **SCITECH2015.tex
@@ -480,13 +480,13 @@ File: waveletdecomposition2D.png Graphic file (type png)
 (./SCITECH2015.bbl [14]) AED: lastpage setting LastPage [15] (./SCITECH2015.aux
 ) ) 
 Here is how much of TeX's memory you used:
- 3574 strings out of 256216
- 49869 string characters out of 1917071
- 115109 words of memory out of 1500000
- 6743 multiletter control sequences out of 10000+200000
+ 3577 strings out of 256216
+ 49906 string characters out of 1917071
+ 114109 words of memory out of 1500000
+ 6746 multiletter control sequences out of 10000+200000
  64822 words of font info for 57 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 43i,11n,45p,1728b,372s stack positions out of 5000i,500n,6000p,200000b,15000s
+ 43i,11n,45p,1728b,374s stack positions out of 5000i,500n,6000p,200000b,15000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/d
 vips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/shar
 e/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/l
@@ -502,7 +502,7 @@ fonts/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.
 pfb></usr/share/texmf/fonts/type1/public/lm/lmsy5.pfb></usr/share/texmf/fonts/t
 ype1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></us
 r/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on SCITECH2015.pdf (15 pages, 19650362 bytes).
+Output written on SCITECH2015.pdf (15 pages, 19651011 bytes).
 PDF statistics:
  162 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)

@@ -5,7 +5,7 @@ Database file #1: ./NEWMASTER.bib
 Warning--entry type for "Kuo2013" isn't style-file defined
 --line 8619 of file ./NEWMASTER.bib
 Warning--entry type for "Tam1996" isn't style-file defined
---line 14735 of file ./NEWMASTER.bib
+--line 14745 of file ./NEWMASTER.bib
 Warning--empty journal in Arndt1997
 Warning--empty journal in Mollo-Christensen1967
 Warning--empty journal in Panda2002
@@ -17,48 +17,49 @@ Warning--empty journal in Cavalieri2010
 Warning--empty journal in Coiffet2006
 Warning--empty journal in Tinney2008
 Warning--there's a number but no volume in spethASME2013
+Warning--there's a number but no volume in speth2014
 Warning--empty journal in Kikuchi2010
 Warning--empty journal in Torrence1998
 Warning--empty journal in Farge1992
-You've used 50 entries,
+You've used 51 entries,
             2292 wiz_defined-function locations,
-            880 strings with 12653 characters,
-and the built_in function-call counts, 10524 in all, are:
-= -- 794
-> -- 493
-< -- 11
-+ -- 184
-- -- 134
-* -- 1106
-:= -- 1569
-add.period$ -- 98
-call.type$ -- 50
+            884 strings with 12802 characters,
+and the built_in function-call counts, 10690 in all, are:
+= -- 805
+> -- 501
+< -- 12
++ -- 187
+- -- 136
+* -- 1123
+:= -- 1594
+add.period$ -- 100
+call.type$ -- 51
 change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 64
-duplicate$ -- 483
-empty$ -- 1079
-format.name$ -- 134
-if$ -- 2240
+cite$ -- 66
+duplicate$ -- 493
+empty$ -- 1096
+format.name$ -- 136
+if$ -- 2275
 int.to.chr$ -- 0
-int.to.str$ -- 50
-missing$ -- 48
-newline$ -- 154
-num.names$ -- 50
-pop$ -- 117
+int.to.str$ -- 51
+missing$ -- 49
+newline$ -- 157
+num.names$ -- 51
+pop$ -- 119
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 183
+skip$ -- 187
 stack$ -- 0
-substring$ -- 719
-swap$ -- 168
-text.length$ -- 11
+substring$ -- 720
+swap$ -- 172
+text.length$ -- 12
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 14
-while$ -- 94
-width$ -- 52
-write$ -- 424
-(There were 16 warnings)
+warning$ -- 15
+while$ -- 95
+width$ -- 53
+write$ -- 433
+(There were 17 warnings)
