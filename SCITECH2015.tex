@@ -128,7 +128,7 @@ is the transformation Jacobian.  Details of the various terms in
 Eqn.~\ref{navier} may be found in Speth and 
 Gaitonde\cite{speth2012b}.
 The inviscid terms are discretized
-with the Roe scheme~\cite{rpl81-1}, combined with the MUSCL approach
+with the Roe scheme~\cite{rpl81-1} combined with the MUSCL approach
 of van Leer~\cite{lbv79-1}. The van Leer harmonic limiter\cite{lbv79-1} is used to maintain the robustness of the small scale turbulence within the simulations. The viscous
 terms in the governing 
 equations are obtained with second-order centered differences and time integration is performed by a second-order diagonalized~\cite{pth81-1} approximately
@@ -143,11 +143,11 @@ explicit boundary condition implementation.
 \end{center}
  \end{figure}
 
-A $65$ million point mesh is used to simulate the Mach $0.9$ jet of the experiments (Fig. \ref{fig:M09Computationaldomain}). 
+A $65$ million point mesh (Fig. \ref{fig:M09Computationaldomain}) is used to simulate the Mach $0.9$ jet of the experiments (Fig. \ref{GDTLsetup}a). 
 The grid has dimensions of 685 points on the $\xi$ direction, 455 points in the $\eta$ direction, and 209 points in the $\zeta$ direction. The mesh is refined in the nozzle region then gradually stretched in the radial direction. At the exit of the nozzle, the grid maintains a constant axial spacing past the potential core length; then begins to stretch at an axial distance of $19D$. To preserve continuity,  the grid has a five point overlap in the $\zeta$ direction. Characteristic boundary conditions\cite{bj2000-1} are applied to the upstream (outside the nozzle) and radial boundaries. Non-reflecting conditions are applied to the downstream and far field boundaries. The flow of the first $\xi$ plane of the nozzle is specified ($\rho=2.04kg/m^{3}$,
 $U=22m/s$, $P=171427Pa$) so that the expanded nozzle exit conditions will match the ideally expanded exit conditions of the Mach $0.9$ experiments: $\rho_{jet}=1.404kg/m^{3}$,
 $U_{jet}=285.99m/s$, $T_{jet}=251.31K$ and thus $Re=635,308$. The nozzle geometry resembles that of the experiments including the nozzle ring on which the actuators are mounted. The velocity profile at the entrance to the nozzle is that of a uniform flow (zero at the wall and freestream everywhere else). Perturbations were not introduced into the boundary layer due to the unknown perturbations in the experiment. Therefore, the simulations have a laminar boundary layer at the nozzle exit while the experiments have a turbulent boundary layer.
-The previous grid study performed in Speth and Gaitonde\cite{spethASME2013} depicted that the $32$ million point mesh had reasonable agreement with experiment for the mean centerline quantities. Therefore, a grid convergence study will not be performed here at this time.
+The previous grid study performed by Speth and Gaitonde\cite{spethASME2013} depicted that the $32$ million point mesh had reasonable agreement with experiment for the mean centerline quantities. 
 
 
 \begin{figure}[h]
