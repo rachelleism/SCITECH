@@ -13,7 +13,6 @@
 %\providecommand{\printnomenclature}{\printglossary}
 %\providecommand{\makenomenclature}{\makeglossary}
 %\makenomenclature
-%test
 \makeatletter
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
@@ -65,7 +64,7 @@ Rachelle L. Speth\thanks{Graduate Research Assistant. Student Member, AIAA},
 
  Acoustic radiation has been a significant problem for commercial airports and aircraft carriers since the advent of turbojet engines in aeronautical applications. Commercial aviation must contend with more restrictive curfews, higher surcharges and flight path restrictions in order to appease the urban and residential areas near the airports which are perturbed by the jet noise. On aircraft carriers, the close proximity of ground crew personnel to tactical jet engines during take-off and landing creates a high potential for hearing loss. To address these issues, noise reduction concepts, most notably passive control techniques such as tabs, chevrons or lobed mixers, have been implemented in commercial vehicles, and military applications are currently being investigated. However, these modifications have a non-trivial penalty to the engine's performance, either in terms of increased weight or decreased thrust. Therefore, active control techniques are currently being investigated in order to mitigate the losses seen from passive control. In order to effectively control the production of noise, the mechanisms that produce aeroacoustic pollution  must be well understood. 
 
- Lighthill\cite{lighthill1963} was the first to show that the governing equations for fluid dynamics could be rearranged into an inhomogenous wave equation. The source term, later dubbed Lighthill's stress tensor, comprises Reynolds stress, shear stress, and density fluctuations terms. Aside from the assumption of a constant sound speed, this rearrangement is exact. Therefore, complete knowledge of the source term should yield an exact solution for the acoustic far-field. In practical applications however, the full source term is unknown and certain simplifications are required. Upon the identification of coherent structures in turbulent jet shear layers\cite{Arndt1997,Mollo-Christensen1967,crow1971,bgl74-1 }, source term models based on coherent eddies have frequently been employed, to varying success. Recognizing that the acoustic far-field spectra of supersonic and subsonic jets can be represented as two distinct universal similarity spectra, independent of jet Mach number or temperature ratio, Tam {\em et al.}\cite{Tam1996} proposed a two-component source mechanism for jet mixing noise. Large-scale coherent structures (alternatively represented as instability waves) being primarily responsible for the aft angle radiation, produce spectra with a distinct amplitude peak. Fine-scale turbulence, on the other hand,  produces a less coherent, more broadband acoustic field and is the dominant source of acoustic radiation at sideline angles. Experiments utilizing direct correlations between density and velocity fluctuations in the shear layers of high-speed jets and the acoustic far-field have supported this two-component source model\cite{Panda2002,Panda2005b}. 
+ Lighthill\cite{lighthill1963} was the first to show that the governing equations for fluid dynamics could be rearranged into an inhomogenous wave equation. The source term, later dubbed Lighthill's stress tensor, comprises Reynolds stress, shear stress, and density fluctuations terms. Aside from the assumption of a constant sound speed, this rearrangement is exact. Therefore, complete knowledge of the source term should yield an exact solution for the acoustic far-field. In practical applications however, the full source term is unknown and certain simplifications are required. Upon the identification of coherent structures in turbulent jet shear layers\cite{Arndt1997,Mollo-Christensen1967,crow1971,bgl74-1 }, source term models based on coherent eddies have frequently been employed, to varying success. Recognizing that the acoustic far-field spectra of supersonic and subsonic jets can be represented as two distinct universal similarity spectra, independent of jet Mach number or temperature ratio, Tam {\em et al.}\cite{Tam1996} proposed a two-component source mechanism for jet mixing noise. Large-scale coherent structures (alternatively represented as instability waves), being primarily responsible for the aft angle radiation, produce spectra with a distinct amplitude peak. Fine-scale turbulence, on the other hand,  produces a less coherent, more broadband acoustic field and is believed to be the dominant source of acoustic radiation at sideline angles. Experiments utilizing direct correlations between density and velocity fluctuations in the shear layers of high-speed jets and the acoustic far-field have supported this two-component source model\cite{Panda2002,Panda2005b}. 
  
 The mechanism by which the acoustic sources produce the acoustic radiation is not well understood in the case of the subsonically-convective jet. The highly directional and highly coherent radiation produced by the large-scale structures is congruent with Mach-wave radiation, and it was initially proposed that a similar mechanism was indeed the source mechanism in both supersonic and subsonic jets\cite{Tam2008}. These axially extended waveforms have been identified as having wavepacket characteristics\cite{JorColo2013}, which has led to the frequency-domain description of the large-scale structures. In the subsonic jet, modulation of the waveform as it is advecting through space is necessary to produce radiation to the far-field. Spatial modulation of the wavepacket was shown to produce the superdirective character of far-field acoustic radiation observed in subsonic jets\cite{Crighton1990}. Similarly, temporal modulation of the wavepacket, in terms of amplitude and envelope, has been shown to improve agreement between analytic models and the numerical results in terms of directivity and amplitude\cite{Sandham2006,Cavalieri2010}. 
 
@@ -94,11 +93,7 @@ All experiments were conducted at the GDTL within the Aerospace Research Center 
 \end{center}
 \end{figure}
 
-For this study a converging, axisymmetric nozzle with exit diameter D of 25.4 mm (1 in.) was used. The internal contour of the nozzle was designed using a fifth order polynomial. The nozzle utilized a thick-lipped design in order to simplify the mounts for the extension, which housed the eight actuators used in this study. For the experiments reported in this paper, the jet was operated at a Mach number of 0.90, and with a total temperature ratio of unity. The Reynolds number based on the jet exit diameter was ; previous investigations using hot-wire anemometry have indicated that the initial shear layer is turbulent for this operating condition with momentum thickness ~0.09 mm and boundary layer thickness ~1 mm\cite{kfm2009-1}.
-
-In the present work, the phase-averaging technique used in Sinha {\em et al.}\cite{sinha2013} is employed in order to study the evolution of the seeded perturbations, both spatially and temporally. Points of time within this phase-averaged period (in terms of $2\pi$) will be considered a phase ($\phi$). The TTL pulse sequence, which controls the LAFPAs, is supplied to an Agilent 3320A waveform generator. The rising edge of the TTL pulse triggers a sharp drop in the output voltage of the waveform generator, which then ramps back up to the original voltage over a time interval which is shorter than the minimum forcing period. The output from the waveform generator is acquired simultaneously with the near- and far-field pressure signals using the aforementioned National Instruments hardware and software. As the forcing Strouhal number, azimuthal mode, and ramp signal are well defined, this system enables the identification of the zero phase of actuation and hence, the ability to phase-average the pressure signals over the forcing period. This ensures that the seeded perturbations can be readily identified in the noisy flow, as well as allowing pressure signals, which were not recorded simultaneously (i.e. different near-field array positions), to be analyzed concurrently. 
-
-Analysis of the near-field response of the forced jet is not immediately straightforward due to acoustic contamination from the actuators themselves\cite{sinha2013}. LAFPAs operate on a joule heating principle - the breakdown of the air between the electrodes and the ensuing flow of current results in intense heating of the air. This rapid, localized thermal perturbation produces a compression wave, which excites the shear layer. However, this compression wave is still evident as it travels through the near-field. Obviously, this is an undesirable effect, as this actuator self-noise may in some cases obscure the hydrodynamic and acoustic response of the jet. In the present work, the near-field pressure signals have been preprocessed using a continuous-wavelet-based filtering algorithm, which has been specifically designed to remove the actuator self-noise while leaving the response of the jet unaltered. Further details of the filtering algorithm can be found in the references\cite{Alkandry2013}. 
+For this study a converging, axisymmetric nozzle with exit diameter D of 25.4 mm (1 in.) was used. The internal contour of the nozzle was designed using a fifth order polynomial. The nozzle utilized a thick-lipped design in order to simplify the mounts for the extension, which housed the eight actuators used in this study. For the experiments reported in this paper, the jet was operated at a Mach number of 0.90, and with a total temperature ratio of unity. The Reynolds number based on the jet exit diameter was $6.2x10^5$; previous investigations using hot-wire anemometry have indicated that the initial shear layer is turbulent for this operating condition with momentum thickness ~0.09 mm and boundary layer thickness ~1 mm\cite{kfm2009-1}. 
 
 \subsection{Localized Arc Filament Plasma Actuators}\label{lafpa}
 Each LAFPA consists of a pair of tungsten pin electrodes, which are placed around the nozzle perimeter 1 mm upstream of the nozzle exit. Eight uniformly spaced actuators were used in this study. The center-to-center spacing between electrode pairs for each actuator is 4 mm. The electrodes are housed in a boron nitride extension attached to the end of the nozzle. A groove with dimensions of 1 mm wide and 0.5 mm deep is machined in the boron nitride, into which the electrode tips protrude, to provide a region of low momentum flow in order to stabilize the formation of the plasma arcs. It has been shown that the existence of this groove does not substantially alter the flow field or the control authority of the LAFPAs\cite{hkfs-2011}. A more detailed description of LAFPA characteristics can be found in Utkin {\em et al.}\cite{uyg2007-1}.
@@ -115,6 +110,10 @@ Far-field acoustic pressure was acquired at three polar angles: $30^{\circ}$, $6
     }\subfloat[]{\includegraphics[width=3.25in]{GDTL_mic_locations}
     }\caption{Photograph of anechoic chamber and nozzle, with near-field linear microphone array in foreground (a) and schematic of all near-field microphone locations (b).}\label{GDTLsetup}
 \end{figure}
+
+In the present work, the phase-averaging technique used in Sinha {\em et al.}\cite{sinha2013} is employed in order to study the evolution of the seeded perturbations, both spatially and temporally. Points of time within this phase-averaged period (in terms of $2\pi$) will be considered a phase ($\phi$). The TTL pulse sequence, which controls the LAFPAs, is supplied to an Agilent 3320A waveform generator. The rising edge of the TTL pulse triggers a sharp drop in the output voltage of the waveform generator, which then ramps back up to the original voltage over a time interval which is shorter than the minimum forcing period. The output from the waveform generator is acquired simultaneously with the near- and far-field pressure signals using the aforementioned National Instruments hardware and software. As the forcing Strouhal number, azimuthal mode, and ramp signal are well defined, this system enables the identification of the zero phase of actuation and hence, the ability to phase-average the pressure signals over the forcing period. This ensures that the seeded perturbations can be readily identified in the noisy flow, as well as allowing pressure signals, which were not recorded simultaneously (i.e. different near-field array positions), to be analyzed concurrently. 
+
+Analysis of the near-field response of the forced jet is not immediately straightforward due to acoustic contamination from the actuators themselves\cite{sinha2013}. LAFPAs operate on a joule heating principle - the breakdown of the air between the electrodes and the ensuing flow of current results in intense heating of the air. This rapid, localized thermal perturbation produces a compression wave, which excites the shear layer. However, this compression wave is still evident as it travels through the near-field. Obviously, this is an undesirable effect, as this actuator self-noise may in some cases obscure the hydrodynamic and acoustic response of the jet. In the present work, the near-field pressure signals have been preprocessed using a continuous-wavelet-based filtering algorithm, which has been specifically designed to remove the actuator self-noise while leaving the response of the jet unaltered. Further details of the filtering algorithm can be found in the references\cite{Alkandry2013}.
 
 \section{Computational Model}\label{theo}
 The simulations employ the same approach as previously used
@@ -224,7 +223,7 @@ model is empirical, the computational duty cycle was chosen to obtain
 similar control authority as in the experiment.  This necessitates a
 higher
 duty cycle ($10\%$) than the one used in the experiments
-($1.97\%$ for $St_{DF}=0.25$).
+($2.0\%$ for $St_{DF}=0.25$).
 As noted earlier, despite the simplicity of the model, its success
 has been documented in Gaitonde 
 and Samimy\cite{gdv2011-POF}, where, in addition to coherent
@@ -252,8 +251,8 @@ Phase-averaged data were also computed for each of the simulations.
 
 \subsection{Near-field Response to Excitation}
 Sinha {\em et al.} \cite{sinha2013} previously found that each pulse
-from the actuators produced a perturbation, which would amplify, roll
-into a large-scale structure, then the structure would grow, saturate,
+from the actuators produced a perturbation, which would amplify and roll up
+into a large-scale structure; the structure would then grow, saturate,
 and decay as it advected through the jet shear layer. In the
 irrotational near-field, the signature of these large-scale structures
 took the form of a compact waveform, with a strong compression wave
@@ -263,7 +262,7 @@ compact waveform is much less than the excitation period. Hence, the
 structures seeded by the excitation do not interact with one another
 as they evolve downstream. Because these structures evolve
 independently, their behavior can be thought of as representing the
-response of the jet to a single perturbation: the impulse response of
+response of the jet to a single perturbation: the {\em impulse} response of
 the jet. As the excitation Strouhal number is increased, the
 excitation period will decrease to the point where the characteristic
 period of the impulse response is on the same order as, or greater
@@ -361,9 +360,9 @@ experiment, the three-dimensional unsteady datasets are employed to
 study the large scale structures associated with the near-field
 dynamics. The 3-D 
 structure dynamics that produce the intricate waveforms
-in Fig.~\ref{phase} can not be easily obtained in experiments, due to the lack of time resolved volumetric PIV.
-Therefore, the LES results are used to analyze the structures producing
-the waveforms. 
+in Fig.~\ref{phase} can not be easily obtained in experiments, as it would require very high resolution PIV over a large span of the jet.
+Therefore, for the time being, the LES results are used to analyze the structures producing
+the waveforms. Work is currently underway at GDTL in order to obtain 3C-PIV along a streamwise slice of the jet under both natural and excited states, though the image resolution in the experimental jet cannot rival that of the LES simulations.
 
 For each excited case, Fig.~\ref{isophase} shows phase-averaged
 isolevels of Q-criterion ($Q=0.35$) colored by axial velocity with a
@@ -384,7 +383,7 @@ experiments by Sinha {\em et al.}\cite{sinha2013}. Initially, the structures tha
 are produced at phase $\phi=0.6(2\pi)$ of Figs.~\ref{isophase}b and~c
 are similar to those associated with the impulse response (Fig.
 \ref{isophase}a).  However, as each structure grows and propagates downstream,
-it interact with the structure generated during the prior actuator on event.
+it interacts with the structure generated during the prior actuator on event.
 Thus structures B and B' are equivalent to A and A' respectively, but belong
 to the previous/subsequent actuator pulse.
 
@@ -395,13 +394,15 @@ Figs.~\ref{isophase}a are observed again. Half a phase later A' is
 broken up close to $x/D=4$ while the ill formed B structure continues
 to interact with the remnants of A'. B' and B are similar structures
 to the ones denoted in the impulse case (Fig.~\ref{isophase}a) however
-structure B is not as well formed as structure A. Conversely, B' is
-more robust than the previous A' structure. This indicates a degree of
-feedback response of the structures between each excitation pair.
+structure B is not as well formed as structure A. 
+%Conversely, B' is
+%more robust than the previous A' structure. This indicates a degree of
+%feedback response of the structures between each excitation pair.
+%%%%How consistent is this? I don't want to draw conclusions from 4 structures in a highly turbulent jet....[MC]
 
 Figure~\ref{isophase}c depicts the isolevels of the high frequency
 ($St_{DF}=0.25$) case.  Successive structures begin to interact even
-earlier, starting at an axial distance of $2D$.  Since, the reaction
+earlier, starting at an axial distance of $2D$.  Since the reaction
 to the actuation is cyclic, the structures seen at the end of the
 potential core at one phase ($\phi=0.1(2\pi)$) begin to develop at
 similar phases in the next cycle. Structure B/A' in phase
@@ -465,7 +466,7 @@ indicated as a positive correlation in Fig.~\ref{corr24} for a $\Delta
 \phi=0.5(2\pi)$. 
 
 To further understand the dynamics of the structures and how they
-relate to the near-acoustic-field, spectral POD will be employed together
+relate to the acoustic field, spectral POD will be employed together
 with wavelet decomposition (discussed further in Section
 \ref{wavletdecomp}). First, the shear layer and near-field will be
 decomposed using spectral POD to validate and confirm the results from
