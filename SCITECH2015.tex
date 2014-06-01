@@ -509,7 +509,7 @@ number]{\includegraphics[width=3.25in]{corr24}\label{corr24}}
 \end{figure}
 
 \subsection{Far-field Response to Excitation}
-The behavior of independent and periodic interaction of the jet
+The behavior of independent and periodic interaction of the
 response to excitation is not limited exclusively to the
 hydrodynamically-dominated regions of the jet, but in fact holds for
 the acoustic far-field as well, at least at angles close to the jet
@@ -580,12 +580,12 @@ appears because we are reconstructing the signal using a different
 analyzing wavelet (in this case, a delta function) than the mother
 wavelet used in the forward transform\cite{Torrence1998,Farge1992}. 
  
-As with the Fourier-based decompositions, the wavelet-based
+The wavelet-based
 decompositions are performed along each radial microphone array
-position, separately. Similar preprocessing of the raw signal (that
-is, the application of the Tukey window along the temporal dimension,
+position, separately. Prior to the forward transform, the raw pressure signals are preprocessed via
+the application of the Tukey window along the temporal dimension,
 zero-padding along the spatial dimension, and cubic interpolation onto
-a regularly spaced axial grid) was performed in order to reduce the
+a regularly spaced axial grid. This was performed in order to reduce the
 spectral leakage inherent in the DFT (as the wavelet transform was
 computed in the Fourier domain). The reconstruction was then performed
 only over those sections of the raw signal which were not
@@ -658,7 +658,7 @@ shear layer, as well as other statistics such as turbulent kinetic
 energy. 
 
 The final paper will include updates on extensions of the present lines of
-inquiry. As already mentioned, phase-locked PIV data will be 
+inquiry. Phase-locked PIV data will be 
 obtained in the experimental jet, allowing both qualitative and
 quantitative measures of the large-scale structure evolutions (growth,
 saturation, and decay, structure-structure interactions, shear layer
