@@ -117,7 +117,7 @@ Analysis of the near-field response of the forced jet is not immediately straigh
 
 \section{Computational Model}\label{theo}
 The simulations employ the same approach as previously used
-successfully to simulate a Mach~$1.3$ jet without and with
+to simulate a Mach~$1.3$ jet without and with
 control\cite{gdv2011-POF,SpethCF2013}.  The full compressible
 Navier-Stokes equations are solved in curvilinear coordinates
 ($\xi,\eta,\zeta$) using the
@@ -137,7 +137,7 @@ For the inviscid terms, a third-order upwind biased approach is
 adopted, together with the Roe scheme\cite{rpl81-1} for flux evaluation.  The
 limiter required to enforce monotonicity is a crucial 
 component of the method.  The van Leer harmonic limiter\cite{lbv79-1}
-has proven very successful at reproducing the main features of the
+has proven to be very successful at reproducing the main features of the
 unsteadiness in the jet.  The viscous 
 terms are discretized with second-order centered differences and time
 integration is performed by a second-order diagonalized~\cite{pth81-1}
@@ -156,7 +156,7 @@ explicit boundary condition implementation.
  used to simulate the Mach~$0.9$ jet measured in the experiment (Fig.
  \ref{GDTLsetup}a).  The grid has dimensions of $685$ points on the
  $\xi$ (streamwise) direction, $455$ points in the $\eta$ (radial)
- direction, and $209$ (azimuthal) points in the $\zeta$ direction. In
+ direction, and $209$ points in the $\zeta$ (azimuthal) direction. In
  the radial direction, the mesh is refined in the nozzle region and
  gradually stretched in the far field. At the exit of the nozzle, the
  grid maintains a constant axial spacing until after the potential
@@ -169,7 +169,7 @@ explicit boundary condition implementation.
  plane of the nozzle ($\rho_{inlet}=2.04kg/m^{3}$, $U_{inlet}=22m/s$, $P_{inlet}=171,427Pa$) to
 %???? Why specify rho, U and P at the entrance, but rho U and T at the exit???
  achieve perfectly expanded nozzle exit conditions corresponding to
- $\rho_{jet}=1.404kg/m^{3}$, $U_{jet}=285.99m/s$, $T_{jet}=251.31K$.
+ $\rho_{jet}=1.404kg/m^{3}$, $U_{jet}=285.99m/s$, $T_{jet}=251.31K$ which match the experiments.
  Based on the nozzle diameter therefore, the Reynolds number is
  $Re=635,308$. The nozzle geometry resembles that of the 
  experiments including the nozzle ring on which the actuators are
@@ -289,7 +289,7 @@ interactions. Further increases in the excitation Strouhal number, to
 $St_{DF} = 0.35$ and $0.50$, yields structures for which the amplitude
 has been significantly reduced, as has the characteristic period. 
 
-Preliminary simulation results are shown in Fig.\ref{phase}(b).
+Preliminary simulation results are shown in Fig.~\ref{phase}(b).
 Overall, the main qualitative features are reproduced, though clear
 quantitative differences are evident.  Given that the receptiveness of
 a shear layer to perturbations is highly sensitive to changes in shear
@@ -298,10 +298,10 @@ matches between the experimental and numerical database is not
 expected.  Nonetheless, the simulations show the same compact
 evolution of peaks and troughs as in the experiment.  Previous
 simulation results with different excitation frequencies have been
-presented in Ref.~\cite{spethASME2013} for a Mach~1.3 jet.  There too,
+presented by Speth and Gaitonde\cite{spethASME2013} for a Mach~1.3 jet.  There too,
 the lower frequencies yield structures that do not interact with each
 other, resulting in a long ``quiet'' time between peaks and troughs.
-As the frequency is increased, interactions between succesive events
+As the frequency is increased, interactions between successive events
 results in a more continual variation of the phase-averaged response.
 The empirical model is
 currently  being adjusted to aid in a more accurate quantitative comparison,  
@@ -395,8 +395,8 @@ broken up close to $x/D=4$ while the ill formed B structure continues
 to interact with the remnants of A'. B' and B are similar structures
 to the ones denoted in the impulse case (Fig.~\ref{isophase}a) however
 structure B is not as well formed as structure A. 
-%Conversely, B' is
-%more robust than the previous A' structure. This indicates a degree of
+Conversely, B' is more robust than the previous A' structure. 
+%This indicates a degree of
 %feedback response of the structures between each excitation pair.
 %%%%How consistent is this? I don't want to draw conclusions from 4 structures in a highly turbulent jet....[MC]
 
@@ -445,7 +445,7 @@ also be related to the phase-averaged structures. Figure \ref{corr24}
 portrays the two-point correlations of pressure comparing $x/D=4$ to
 $x/D=2$ on the first array for all simulated 
 cases. Each Strouhal number exhibits correlation peaks which are one
-actuation period apart. The $St_{DF}=0.05$ case exhibits a a damped sine wave which has a large peak
+actuation period apart. The $St_{DF}=0.05$ case exhibits a damped sine wave which has a large peak
 at about $\Delta \phi=-0.15(2\pi)$ 
 and exhibits decay on either
 side until the correlation begins to grow again due to the next
@@ -455,7 +455,7 @@ more sine-like pattern due to the interacting structures.  These
 correlations can be readily seen in the phase-averaged results of
 Fig.~\ref{isophase}. In Fig.~\ref{isophase}b, at $\phi=0.1(2\pi)$,
 x/D=4 is experiencing a dark dilatation wave (decrease in pressure). 
-Aalf an excitation period later ($\phi=0.6(2\pi)$), $x/D=2$ is also
+Half an excitation period later ($\phi=0.6(2\pi)$), $x/D=2$ is also
 experiencing a dark dilatation wave. This translates to a
 positive correlation in Fig.~\ref{corr24} at a time difference of half
 a cycle. Also for a
