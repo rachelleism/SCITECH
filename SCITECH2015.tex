@@ -48,13 +48,13 @@
 
 \usepackage{babel}
 \begin{document}
-\title{Near-field Decomposition of an Excited Mach 0.9 Jet - Complementary Experimental and Computational Analysis}
+\title{A Study of the Noise Source Mechanisms in an Excited Mach 0.9 Jet - Complementary Experimental and Computational Analysis}
 
 
 \author{Michael Crawley\thanks{Graduate Research Assistant. Student Member, AIAA}, \
 Rachelle L. Speth\thanks{Graduate Research Assistant. Student Member, AIAA},
- Mo Samimy\thanks{John B. Nordholt Professor. Fellow, AIAA},
- and Datta V. Gaitonde\thanks{John Glenn Chair Professor. Fellow, AIAA}
+ Datta V. Gaitonde\thanks{John Glenn Chair Professor. Fellow, AIAA},
+ and Mo Samimy\thanks{John B. Nordholt Professor. Fellow, AIAA}
 \\\normalsize\itshape Mechanical and Aerospace Engineering, The Ohio State University, Columbus, OH \\}
 
 
@@ -72,7 +72,7 @@ Understanding the exact spatiotemporal evolution of the large-scale structures i
  Tinney and Jordan\cite{Tinney2008} used a Fourier-based wavenumber-frequency filter method in a cold, subsonic jet to separate the the near-field pressure into supersonically- and subsonically-convecting waves (and hence, the hydrodynamic and acoustic components). The method of Kuo {\em et al.}\cite{Kuo2013} dispensed with explicit concerns with the phase velocity of the pressure components and instead decomposed the field using Empirical Mode Decomposition and the critical frequency, as defined by Arndt {\em et al.}\cite{Arndt1997}, which demarcates the energy dominance of the acoustic and hydrodynamic components in the near-field spectra. In the work of Crawley and Samimy\cite{crawley2014b}, a new decomposition method was proposed in which a spatio-temporal continuous wavelet transform is used to filter the irrotational pressure acquired experimentally in an unheated Mach $0.9$ jet. They compared this new method against those of Tinney and Jordan\cite{Tinney2008} and Kuo {\em et al.}\cite{Kuo2013} and found the new method to be superior for decomposing the broadband pressure field, as well as identifying and reconstructing strongly-energetic localized bursts of energy.  
 
 Post-processing experimental and computational data using reduced order models is beneficial to looking at the jet noise mechanisms in a new way.
- For instance, Jordan et al.\cite{jordan2007} developed a method called Most Observable Decomposition (MOD) in order to better capture the modes that generate noise. They found with this technique that only 24 MOD modes were required to capture $90\%$ of the sound energy of a Mach $0.9$ turbulent jet. Of this sound energy captured, $48\%$ is from the break up of the coherent structures after the potential core and $12\%$ is from the convection of coherent structures. 
+ For instance, Jordan et al.\cite{jordan2007} developed a method called Most Observable Decomposition (MOD) in order to better capture the modes that generate noise. They found with this technique that only 24 MOD modes were required to capture $90\%$ of the sound energy of a Mach $0.9$ turbulent jet. 
 Another approach to understanding the noise sources of jets has been Proper Orthogonal Decomposition (POD) of the flow variables in the Fourier domain. This method maintains the frequency spectra and ranks modes by energy. 
 With this method, Arndt\cite{Arndt1997} examined the pressure signal outside a mixing layer and found that the phase velocity was constant indicating that the jet is non-dispersive.  
 Others have found and confirmed that the $m=0$ mode is dominate in the low wavenumbers and contributes the most to large scale structure noise.\cite{hall2007,tinney2007}  
@@ -80,8 +80,8 @@ Using the DNS of a Mach 0.9 jet, Freund and Colonius\cite{freund2002} discovered
 This method has also been applied before to study the control of jets. Moreno et al.\cite{moreno2003} computed the POD of far-field microphones of no-control and microjet controlled supersonic jets and observed a  $67\%$ decrease in energy for the first mode while using microjet control.
 Other methods are also combined with POD (i.e. linearized stochastic estimation (LSE) and high-order stochastic estimation (HOSE)) in order to expand the available findings. Baars and Tinney\cite{baars2010} performed a POD based spectral High-Order Stochastic Estimation (HOSE) on exprimental data simultaneously obtained in the near and far-fields and determined that the hydrodynamic waveforms in the near-field are linearly related to the far-field signal. 
 
-In this work, we look to combine the analysis tools of wavelet-based hydrodynamic and acoustic decomposition with that of POD in the Fourier domain in order to study a subsonic jet. 
-The jet has been controlled with plasma actuators using the axisymmetric mode (m=0) in order to seed the growth of large-scale structures in the jet shear layer. Concurrently, numerical simulations have been conducted using LES, which match both the jet and the actuation conditions of the experiments. Through the use of various postprocessing techniques, the near-field hydrodynamic and far-field acoustic response of the jet to excitation has been analyzed over a range of structure frequencies. Preliminary work has been completed in order to decompose the irrotational near-field of the jet into its constitutive hydrodynamic and acoustic components, and to begin identification of the dominant acoustic source region and acoustic emission events. The experimental and numerical databases will complement one another, as the relevant large-scale structure dynamics which lead to acoustic emission are identified, and a simplified source model is obtained. 
+In this work, we look to combine the analysis tools of wavelet-based hydrodynamic and acoustic decomposition with that of POD in the Fourier domain in order to study the noise sources in a subsonic jet. 
+The jet has been controlled with plasma actuators using the axisymmetric mode (m=0) in order to excite instabilities in the jet shear layer and thus control the development of the large-scale structures and jet noise sources. Concurrently, numerical simulations have been conducted using LES, which match both the jet and the actuation conditions of the experiments. Through the use of various postprocessing techniques, the near-field hydrodynamic and far-field acoustic response of the jet to excitation has been analyzed over a range of structure frequencies. Preliminary work has been completed in order to decompose the irrotational near-field of the jet into its constitutive hydrodynamic and acoustic components, and to begin identification of the dominant acoustic source region and acoustic emission events. The experimental and numerical databases will complement one another, as the relevant large-scale structure dynamics which lead to acoustic emission are identified, and a simplified source model is obtained. 
 
 
 \section{Experimental Setup}
@@ -640,14 +640,13 @@ extend the algorithm to higher-dimensions for use with the numerical
 database.
 
 \section{Future Work}
-The work to date has begun to shed light on the importance of the
+The work to date continues to shed light on the importance of the
 large-scale structure interactions in determining the acoustic
-far-field: the structure-structure interactions (or lack thereof)
-appear to govern the streamwise evolution of the structures which in
-turn governs the acoustic emission. What remains to be done, is
+far-field: the interactions and disintegrations
+appear to govern the acoustic emission to shallow angles. What remains to be done, is
 directly linking the relevant vortex dynamics of the large-scale
 structures to the acoustic emission events, and in the process
-identifying a simplified aeroacoustic source mechanism. To this end,
+identifying a simplified aeroacoustic source model. To this end,
 the information provided separately in the experimental and numerical
 databases complement one another in providing a
 more complete representation of the acoustically-relevant dynamics of
